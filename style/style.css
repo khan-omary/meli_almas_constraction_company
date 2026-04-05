@@ -5,13 +5,14 @@
 }
 
 html {
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 body {
     background-color: rgb(6, 13, 28);
     color: white;
     margin: auto;
+    font-size: 1rem;
 }
 
 section {
@@ -50,6 +51,7 @@ section {
     background: #000000;
     padding: 12px;
     margin: 1.4rem;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 .com_news img {
@@ -68,7 +70,11 @@ section {
 
 @media (min-width: 601px) and (max-width: 991px) {
     html {
-        font-size: 0.9rem;
+        font-size: 2rem;
+    }
+
+    body {
+        font-size: 1.6rem;
     }
 
     .com_news {
@@ -85,7 +91,11 @@ section {
 
 @media (min-width: 992px) {
     html {
-        font-size: 0.9rem;
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 1.6rem;
     }
 
     #Hero_section {

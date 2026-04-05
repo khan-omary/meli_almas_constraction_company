@@ -21,10 +21,7 @@ header {
     align-items: center;
     background-color: rgb(31, 41, 55);
     height: 9%;
-
 }
-
-
 
 
 .logo {
@@ -50,7 +47,6 @@ header {
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-size: 1.1rem;
     gap: 3.3rem;
     position: relative;
 }
@@ -68,8 +64,11 @@ header {
         display: block;
     }
 
+    body {
+        font-size: 2rem;
+    }
+
     .menu-list {
-        font-size: 1.2rem;
         gap: 3.3rem;
     }
 }
@@ -78,6 +77,10 @@ header {
 
     header {
         display: block;
+    }
+
+    body {
+        font-size: 2rem;
     }
 
     .navigation {

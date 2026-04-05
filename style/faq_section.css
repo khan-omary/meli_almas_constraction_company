@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 0.6rem;
 }
 
@@ -31,16 +31,15 @@ html{
 }
 
 .quistion {
-    height: 8%;
-    padding: 0.1%;
+    height: 9%;
+    padding: 0.9%;
     background-color: rgb(87, 87, 87);
     border-radius: 3px;
 }
 
 .answer {
     padding-right: 1%;
-    /* display: none; */
-    /*when create javascript file remove it   */
+    display: none;               /*when create javascript file remove it   */
 }
 
 #faq-title {
