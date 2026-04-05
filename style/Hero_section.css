@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+#Hero_section {
+    margin-top: 20px;
+}
+
+.hero_div {
+    position: relative;
+    border-radius: 4px;
+    width: 90%;
+    margin: 5%;
+}
+
+.company-name-image {
+    position: relative;
+    height: 50%;
+    overflow-y: hidden;
+}
+
+.company-name-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#company-name {
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    font-size: 0.5rem;
+    text-align: center;
+    background-color: rgba(36, 44, 59, 0.8);
+    top: 12%;
+    left: 50%;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 1%;
+    transform: translate(-50%, -50%);
+    /* box-shadow: rgb(255, 0, 0) 8px 10px 29px;*/
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+
+}
+
+#company_ifno {
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(23, 31, 43);
+    border-radius: 4px;
+    transition: all 0.6s ease;
+}
+
+#company_ifno:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(0, 0, 0) 5px 10px 20px;
+}
+
+
+@media (min-width: 992px) {
+
+    #company_ifno {
+        position: absolute;
+        bottom: 9%;
+        right: 5%;
+        left: 5%;
+        margin: 1%;
+        padding: 2%;
+        background-color: rgb(23, 31, 43);
+        border-radius: 4px;
+    }
+
+
+    #company-name {
+        font-size: larger;
+        text-align: center;
+        padding: 1%;
+    }
+}

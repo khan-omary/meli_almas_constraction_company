@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    background-color: rgb(6, 13, 28);
+    color: white;
+    margin: auto;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+#new-section {
+    position: relative;
+}
+
+/* Slider */
+#news {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    gap: 0.5%;
+    padding: 1rem;
+    margin: 1.1rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+#news::-webkit-scrollbar {
+    display: none;
+}
+
+.com_news {
+    width: 100%;
+    border: 2px solid gray;
+    scroll-snap-align: start;
+    border-radius: 5px;
+    flex-shrink: 0;
+    background: #000000;
+    padding: 12px;
+    margin: 1.4rem;
+}
+
+.com_news img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.news-content {
+    padding: 10px;
+}
+.social_media_link {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+}
+
+
+@media (min-width: 601px) and (max-width: 991px) {
+    html{
+        font-size: 0.9rem;
+    }
+    .com_news {
+        width: calc(50% - 10px);
+    }
+    #Hero_section .hero_div {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 992px) {
+    html {
+        font-size: 0.9rem;
+    }
+    #Hero_section {
+        width: 95%;
+        margin: 10px;
+    }
+    #Hero_section .hero_div {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: normal;
+    }
+    .news {
+        gap: 14px;
+        padding: 2rem;
+        margin: 2rem;
+        margin-right: 1rem;
+    }
+    .com_news {
+        width: 33.3%;
+        margin-left: 0.1rem;
+        margin-right: 0.2rem;
+    }
+    #cr_tech_sec_cln {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card {
+        width: 23%;
+        margin-bottom: 20px;
+    }
+}
