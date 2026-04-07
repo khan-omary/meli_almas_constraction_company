@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(6, 13, 28);
+    color: white;
+    padding: 0;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 12px;
+    border-radius: 4px;
+    margin: 1.2%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(45, 54, 72, 0.8);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    border-color: rgba(29, 32, 39, 0.8);
+    transition: all 0.6s ease;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+}
+
+
+.service:hover {
+    border-color: rgba(255, 187, 0, 0.8);
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+
+}
+
+
+
+.image {
+    width: 97%;
+    border-radius: 10px;
+    height: 70%;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.service-info {
+    width: 100%;
+    height: 35%;
+    margin: 0.9px;
+}
+
+.service-name {
+    text-align: center;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.service-real-info {
+    font-size: 0.8rem;
+}
+
+section {
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 601px) and (max-width: 1023px) {
+    .service {
+        /* width: calc(50% - 15px); */
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    #services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .service-info {
+        margin: 2px;
+        padding:  2px;
+    }
+    .service-name {
+        font-size: 1.2rem;
+    }
+    .service-real-info {
+        font-size: 0.9rem;
+    }
+    
+
+}
+footer{
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    .service {
+        /* width: 48%; */
+    }
+
+    #services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .service-name {
+        font-size: 1.6rem;
+    }
+    .service-real-info {
+        font-size: 1.2rem;
+    }
+}

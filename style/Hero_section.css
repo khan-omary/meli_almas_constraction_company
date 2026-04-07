@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 #Hero_section {
@@ -29,7 +29,7 @@
 #company-name {
     position: absolute;
     height: 10%;
-    width: 60%;
+    width: 70%;
     text-align: center;
     text-justify: auto;
     background-color: rgba(36, 44, 59, 0.8);

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -12,7 +12,7 @@ body {
     background-color: rgb(6, 13, 28);
     color: white;
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 section {
@@ -62,15 +62,19 @@ section {
 }
 
 .news-content {
-    padding: 10px;
+    padding: 3px;
 }
 
 
 
 
 @media (min-width: 601px) and (max-width: 991px) {
+    .news-content {
+        padding: 10px;
+    }
+
     html {
-        font-size: 2rem;
+        font-size: 18px;
     }
 
     body {
@@ -90,6 +94,10 @@ section {
 
 
 @media (min-width: 992px) {
+    .news-content {
+        padding: 10px;
+    }
+
     html {
         font-size: 18px;
     }
