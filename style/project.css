@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 95%;
+    margin: auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(6, 13, 28);
+    color: white;
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: auto;
+    width: 95%;
+    margin: 2.5%;
+    margin-bottom: 1rem;
+}
+
+.hero_div img {
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.Hero-info {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    background-color: rgba(36, 44, 59, 0.8);
+    top: 5%;
+    right: 5%;
+    /* padding: 5%; */
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    font-size: 0.5rem;
+}
+
+#prioject-full {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 95%;
+    background-color: rgb(6, 13, 28);
+    margin-bottom: 4rem;
+    margin: 2.5%;
+    margin-bottom: 3%;
+
+}
+
+
+.prioject-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 98%;
+    height: auto;
+    padding: 1%;
+    margin: 4%;
+    margin-bottom: 10px;
+    background-color: rgb(88, 101, 122);
+    border-radius: 4px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+}
+
+.prioject-content {
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    background-color: rgb(54, 69, 91);
+    border-radius: 4px;
+    overflow-y: auto;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+
+.prioject-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.prioject-content::-webkit-scrollbar-thumb {
+    background-color: rgb(23, 31, 43);
+    border-radius: 10px;
+}
+
+.prioject-image-charg {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 4px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    margin: 10px;
+}
+
+.prioject-image {
+    width: 100%;
+    background-color: beige;
+    border-radius: 4px;
+}
+
+.prioject-image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.like-coment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 10%; */
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(23, 31, 43);
+    border-radius: 4px;
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+    .Hero-info {
+        font-size: 0.8rem;
+    }
+
+    .prioject-content {
+        font-size: 1.3rem;
+    }
+
+    .like-coment {
+        font-size: 20px;
+        padding: 17px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    .hero_div {
+        width: 98%;
+        margin: 2.5%;
+    }
+
+    .Hero-info {
+        font-size: 1rem;
+    }
+
+    #prioject-full {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 95%;
+        height: auto;
+        margin: 2.5%;
+        background-color: rgb(6, 13, 28);
+    }
+
+    .prioject-info {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        width: 95%;
+        height: 400px;
+        margin-bottom: 10px;
+        /* align-items: center; */
+        background-color: rgb(88, 101, 122);
+        border-radius: 4px;
+    }
+
+    .prioject-content {
+        width: 46%;
+        height: 100%;
+        padding: 2%;
+        background-color: rgb(54, 69, 91);
+        border-radius: 4px;
+        font-size: 1.3rem;
+        overflow-y: auto;
+    }
+
+    .prioject-image-charg {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        border-radius: 4px;
+        box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    }
+
+    .like-coment {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+}

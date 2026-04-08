@@ -51,12 +51,25 @@ header {
     position: relative;
 }
 
-
-
-
 .menu-list a {
     text-decoration: none;
     color: white;
+    position: relative;
+}
+
+.menu-list a::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease;
+}
+
+.menu-list a:hover::after {
+    width: 100%;
 }
 
 @media (min-width: 992px) {
