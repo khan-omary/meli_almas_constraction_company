@@ -29,7 +29,9 @@ footer {
     border-radius: 3px;
 
 }
-
+.copy-right{
+    text-align: center;
+}
 .footer-contact p {
     margin-bottom: 10px;
 }
