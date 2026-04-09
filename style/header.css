@@ -20,14 +20,14 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(31, 41, 55);
-    height: 9%;
+    /* height: 9%; */
 }
 
 
 .logo {
     display: flex;
     justify-content: flex-start;
-    width: 90px;
+    width: 80px;
     height: auto;
 }
 
@@ -75,6 +75,11 @@ header {
 @media (min-width: 992px) {
     header {
         display: block;
+        position: sticky;
+        top: 10px;
+        z-index: 1000;
+        background-color: rgb(31, 41, 55);
+        display: block;
     }
 
     body {
@@ -89,6 +94,11 @@ header {
 @media (min-width: 601px) and (max-width: 991px) {
 
     header {
+        display: block;
+        position: sticky;
+        top: 2px;
+        z-index: 1000;
+        background-color: rgb(31, 41, 55);
         display: block;
     }
 
