@@ -191,7 +191,7 @@ section {
 
 @media (min-width: 601px) and (max-width: 991px) {
     body {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     #creat h3 {
@@ -201,17 +201,12 @@ section {
     #four-card {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    /* .ex-card {
-        width: 95%;
-    } */
 }
 
 @media (min-width: 992px) {
     body {
         font-size: 1.2rem;
     }
-
     #creat {
         font-size: 1rem;
     }

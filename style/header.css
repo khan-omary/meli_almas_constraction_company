@@ -55,6 +55,7 @@ header {
     text-decoration: none;
     color: white;
     position: relative;
+    box-shadow: rgb(0, 0, 0, 0.6) 0 10px 30px 1px;
 }
 
 .menu-list a::after {
