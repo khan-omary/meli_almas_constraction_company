@@ -24,7 +24,7 @@ body {
     align-items: center;
     width: 98%;
     border-radius: 4px;
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 #Title-backround img {
@@ -32,7 +32,7 @@ body {
     height: 100%;
     border-radius: 4px;
     object-fit: cover;
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 #title {
@@ -55,7 +55,7 @@ section {
     border-radius: 4px;
     width: 95%;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 #contact-card {
@@ -66,7 +66,7 @@ section {
     width: 90%;
     height: auto;
     background-color: rgb(31, 41, 55);
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 
@@ -92,10 +92,12 @@ section {
     border-radius: 5px;
     padding: 3%;
 }
-.card-image{
+
+.card-image {
     display: none;
-   
+
 }
+
 /* .titlec {
     display: none;
 } */
@@ -132,7 +134,7 @@ section {
     width: 90%;
     background-color: rgb(31, 41, 55);
     padding: 25px;
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 #form {
@@ -200,7 +202,7 @@ textarea {
     border-radius: 4px;
     height: auto;
     padding: 1%;
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 /* #location_image, */
@@ -223,7 +225,7 @@ textarea {
 iframe {
     border-radius: 4px;
     width: 100%;
-     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
 footer {
@@ -233,9 +235,10 @@ footer {
 }
 
 @media (min-width: 601px) and (max-width: 991px) {
-     #title {
+    #title {
         font-size: 0.9rem;
     }
+
     #form {
         flex-direction: column;
     }
@@ -249,10 +252,11 @@ footer {
         height: 20%;
         gap: 2%;
     }
-    .card-image{
-    display: block;
-   
-}
+
+    .card-image {
+        display: block;
+
+    }
 }
 
 
@@ -291,9 +295,9 @@ footer {
         overflow: hidden;
     }
 
-       .card-image{
-    display: block;
-}
+    .card-image {
+        display: block;
+    }
 
     .overlay {
         display: flex;
@@ -325,6 +329,7 @@ footer {
     #main-contact {
         width: 40%;
     }
+
     footer {
         font-size: 1.2rem;
     }
