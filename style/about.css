@@ -9,10 +9,6 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(6, 13, 28);
     color: white;
     font-size: 0.6rem;
@@ -21,6 +17,7 @@ body {
 section {
     border-radius: 4px;
     width: 95%;
+    margin: 2.5%;
     margin-bottom: 6%;
     background-color: rgb(31, 41, 55);
 
@@ -141,6 +138,8 @@ section {
 }
 
 #extra-info-section {
+    width: 70%;
+    margin: auto;
     background-color: rgb(31, 41, 55);
     display: flex;
     height: auto;
@@ -148,12 +147,14 @@ section {
     justify-content: center;
     align-items: center;
     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
+    margin-bottom: 3%;
 }
 
 #extra-info {
-    width: 90%;
+    width: 95%;
     height: auto;
     border-radius: 4px;
+    margin: 2%;
 }
 
 #ex_title {
