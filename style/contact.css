@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background-color: rgb(6, 13, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(15, 23, 42);
     color: white;
     padding: 0;
     font-size: 1.2rem;
@@ -146,6 +147,11 @@ section {
     gap: 10px;
 }
 
+#form-name {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
 #input-data {
     display: flex;
     flex-direction: column;
@@ -218,7 +224,7 @@ textarea {
     justify-content: center;
     align-items: center;
     width: 100%;
-
+    font-size: 0.7rem;
     padding: 20px;
 }
 
@@ -228,11 +234,9 @@ iframe {
     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
-footer {
-    width: 100%;
-    margin: 0;
-    font-size: 1rem;
-}
+/* footer {
+    font-size: 0.8rem;
+} */
 
 @media (min-width: 601px) and (max-width: 991px) {
     #title {
@@ -261,8 +265,18 @@ footer {
 
 
 @media (min-width: 992px) {
+
+    section {
+        width: 80%;
+    }
+
     #title {
         font-size: 1rem;
+    }
+
+    #Form-section {
+        height: 100%;
+        width: 80%;
     }
 
     #form {
@@ -328,6 +342,7 @@ footer {
 
     #main-contact {
         width: 40%;
+        font-size: 1rem;
     }
 
     footer {

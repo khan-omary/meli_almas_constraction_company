@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #cr_tech_sec_cln_section {
     background-color: rgb(31, 41, 55);
     height: auto;

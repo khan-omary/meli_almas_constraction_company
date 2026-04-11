@@ -4,6 +4,7 @@ footer {
     margin: 1%;
     padding: 1%;
     border-radius: 3px;
+    font-size: 0.7rem;
 }
 
 .link-contact-secial-link {
@@ -27,11 +28,18 @@ footer {
     margin: 1%;
     padding: 1%;
     border-radius: 3px;
-
 }
-.copy-right{
+
+
+.copy-right {
     text-align: center;
 }
+
+.footer-contact h3 {
+    padding-right: 11%;
+    padding-bottom: 2%;
+}
+
 .footer-contact p {
     margin-bottom: 10px;
 }
@@ -45,8 +53,14 @@ footer {
     color: white;
 }
 
+
 .copy-right {
-    justify-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 0.8rem;
+    border-top: 1px solid #1e2a3e;
+    color: rgb(148, 163, 184);
+    font-size: 0.8rem;
 }
 
 .social_media_link {
@@ -59,16 +73,47 @@ footer {
 
 
 @media (min-width: 601px) and (max-width: 991px) {
+    footer {
+        font-size: 1rem;
+    }
+
     .link-contact-secial-link {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .social_media_link {
+        font-size: 2rem;
+    }
+
+
+
+    .copy-right {
+        padding-top: 1.5rem;
+        margin-top: 1.2rem;
+        font-size: 1rem;
     }
 }
 
 
 @media (min-width: 992px) {
+    footer {
+        font-size: 1rem;
+    }
+
     .link-contact-secial-link {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .social_media_link {
+        font-size: 2rem;
+    }
+
+
+    .copy-right {
+        padding-top: 2rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
     }
 }

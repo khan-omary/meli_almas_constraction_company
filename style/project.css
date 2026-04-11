@@ -14,7 +14,8 @@ html {
 }
 
 body {
-    background-color: rgb(6, 13, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(15, 23, 42);
     color: white;
     font-size: 1.2rem;
 }
@@ -79,9 +80,9 @@ img {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 98%;
+    width: 95%;
     height: auto;
-    padding: 1%;
+    padding: 2%;
     margin: 4%;
     margin-bottom: 10px;
     background-color: rgb(88, 101, 122);
@@ -90,14 +91,14 @@ img {
 }
 
 .prioject-content {
-    width: 95%;
-    height: auto;
-    padding: 1%;
+    width: 90%;
+    /* height: auto; */
+    /* padding: 2%; */
     background-color: rgb(54, 69, 91);
     border-radius: 4px;
     overflow-y: auto;
     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
-    margin: 10px;
+    margin: 0.5%;
     font-size: 1rem;
 }
 
@@ -142,6 +143,10 @@ img {
     background-color: rgb(23, 31, 43);
     border-radius: 4px;
 }
+
+/* footer {
+    font-size: 0.8rem;
+} */
 
 
 @media (min-width: 601px) and (max-width: 991px) {

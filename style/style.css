@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: rgb(6, 13, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(15, 23, 42);
     color: white;
     margin: auto;
     font-size: 1.2rem;
@@ -92,6 +93,9 @@ section {
     }
 }
 
+footer {
+    font-size: 0.8rem;
+}
 
 @media (min-width: 992px) {
     .news-content {
