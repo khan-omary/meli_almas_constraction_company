@@ -113,7 +113,6 @@ footer {
     line-height: 1.6;
 }
 
-/* ټیم سوشل آیکونونه (اختیاري) */
 .team-social {
     margin-top: 1rem;
     display: flex;
@@ -193,12 +192,10 @@ footer {
     .menu-bar {
         justify-content: center;
     }
-
     .menu-list {
         gap: 0.8rem;
         justify-content: center;
     }
-
     .menu-list li a {
         font-size: 0.85rem;
     }
