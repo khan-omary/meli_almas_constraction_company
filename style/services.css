@@ -83,13 +83,26 @@ section {
     margin-bottom: 100px;
     margin-top: 20px;
 }
-/* footer {
-    font-size: 0.8rem;
-} */
+
 
 @media (min-width: 601px) and (max-width: 1023px) {
-    .service {
-        /* width: calc(50% - 15px); */
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+    }
+
+    .menu-bar {
+        justify-content: center;
+    }
+
+    .menu-list {
+        gap: 0.8rem;
+        justify-content: center;
+    }
+
+    .menu-list li a {
+        font-size: 0.85rem;
     }
 
     html {
@@ -103,20 +116,24 @@ section {
     #services {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .service-info {
         margin: 2px;
-        padding:  2px;
+        padding: 2px;
     }
+
     .service-name {
         font-size: 1.2rem;
     }
+
     .service-real-info {
         font-size: 0.9rem;
     }
-    
+
 
 }
-footer{
+
+footer {
     font-size: 1rem;
 }
 
@@ -137,9 +154,11 @@ footer{
     #services {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .service-name {
         font-size: 1.6rem;
     }
+
     .service-real-info {
         font-size: 1.2rem;
     }

@@ -67,9 +67,30 @@ section {
 }
 
 
-
-
 @media (min-width: 601px) and (max-width: 991px) {
+    html {
+        font-size: 18px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+    }
+
+    .menu-bar {
+        justify-content: center;
+    }
+
+    .menu-list {
+        gap: 0.8rem;
+        justify-content: center;
+    }
+
+    .menu-list li a {
+        font-size: 0.85rem;
+    }
+
     .news-content {
         padding: 10px;
     }
@@ -93,9 +114,6 @@ section {
     }
 }
 
-footer {
-    font-size: 0.8rem;
-}
 
 @media (min-width: 992px) {
     .news-content {
@@ -103,7 +121,7 @@ footer {
     }
 
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     body {
