@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: rgb(15, 23, 42);
+    --text-color: white;
+    --secondary-color: rgb(34, 197, 94);
+    --third-color: rgb(30, 41, 59);
+}
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -11,8 +18,8 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(15, 23, 42);
-    color: white;
+    background: var(--third-color);
+    color: var(--text-color);
     line-height: 1.5;
     font-size: 1rem;
 }
@@ -35,7 +42,7 @@ footer {
 
 .team-header h1 {
     font-size: 2.8rem;
-    color: white;
+    color: var(--text-color);
     margin-bottom: 0.5rem;
 }
 
@@ -52,7 +59,7 @@ footer {
 }
 
 .team-card {
-    background: rgb(30, 41, 59);
+    background: rgb(15, 23, 42);
     border-radius: 1.5rem;
     overflow: hidden;
     transition: all 0.35s ease;
@@ -96,7 +103,7 @@ footer {
 }
 
 .team-role {
-    color: rgb(34, 197, 94);
+    color: var(--secondary-color);
     font-weight: bold;
     font-size: 1.1rem;
     letter-spacing: 1px;
@@ -106,12 +113,11 @@ footer {
 }
 
 .team-desc {
-    color: #cbd5e1;
+    color: var(--text-color);
     font-size: 0.95rem;
     margin-top: 0.8rem;
     line-height: 1.6;
 }
-
 
 .team-social {
     margin-top: 1rem;
@@ -127,7 +133,7 @@ footer {
 }
 
 .team-social a:hover {
-    color: rgb(34, 197, 94);
+    color: var(--secondary-color);
     transform: scale(1.1);
 }
 
@@ -142,7 +148,7 @@ footer {
 
 .values-section h2 {
     font-size: 2rem;
-    color: white;
+    color: var(--text-color);
     margin-bottom: 1rem;
 }
 
@@ -155,7 +161,7 @@ footer {
 }
 
 .value-item {
-    background: rgb(30, 41, 59);
+    background: var(--third-color);
     padding: 1rem 1.8rem;
     border-radius: 3rem;
     font-weight: bold;

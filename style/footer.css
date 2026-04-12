@@ -1,6 +1,11 @@
+:root {
+    --primary-color: rgb(7, 9, 12);
+    --text-color: white;
+}
+
 footer {
-    background-color: rgb(7, 9, 12);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     margin: 1%;
     padding: 1%;
     border-radius: 3px;
@@ -15,7 +20,7 @@ footer {
 
 .link-contact-secial-link div {
     margin: 2%;
-    background-color: rgb(7, 9, 12);
+    background-color: var(--primary-color);
 
 }
 
@@ -24,7 +29,7 @@ footer {
 .footer-link,
 .social_media_link,
 .copy-right {
-    background-color: rgb(7, 9, 12);
+    background-color: var(--primary-color);
     margin: 1%;
     padding: 1%;
     border-radius: 3px;
@@ -98,7 +103,7 @@ footer {
 
 @media (min-width: 992px) {
     footer {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .link-contact-secial-link {
@@ -110,10 +115,10 @@ footer {
         font-size: 2rem;
     }
 
-
     .copy-right {
         padding-top: 2rem;
         margin-top: 1.5rem;
         font-size: 1rem;
     }
+
 }

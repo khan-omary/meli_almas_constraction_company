@@ -8,10 +8,17 @@ html {
     font-size: 16px;
 }
 
+:root {
+    --primary-color: rgb(15, 23, 42);
+    --text-color: white;
+    --secondary-color: rgb(15, 23, 42);
+    --third-color: rgb(6, 13, 28);
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(15, 23, 42);
-    color: white;
+    background: var(--secondary-color);
+    color: var(--text-color);
     font-size: 0.6rem;
 }
 
@@ -20,7 +27,7 @@ section {
     width: 95%;
     margin: 2.5%;
     margin-bottom: 6%;
-    background-color: rgb(31, 41, 55);
+    background-color: var(--secondary-color);
 
 }
 
@@ -59,12 +66,12 @@ section {
 }
 
 #goal-info {
-    background-color: rgb(31, 41, 55);
+    background-color: var(--secondary-color);
     padding: 2%;
 }
 
 #goul {
-    background-color: rgb(6, 13, 28);
+    background-color: var(--third-color);
 }
 
 
@@ -102,7 +109,7 @@ section {
 
 
 #history {
-    background-color: rgb(6, 13, 28);
+    background-color: var(--third-color);
     box-shadow: rgb(0, 0, 0) 5px 10px 11px;
 }
 
@@ -120,7 +127,7 @@ section {
 }
 
 #history-info {
-    background-color: rgb(31, 41, 55);
+    background-color: var(--secondary-color);
     padding: 1%;
     border-radius: 4px;
 }
@@ -141,7 +148,7 @@ section {
 #extra-info-section {
     width: 70%;
     margin: auto;
-    background-color: rgb(31, 41, 55);
+    background-color: var(--secondary-color);
     display: flex;
     height: auto;
     flex-direction: column;

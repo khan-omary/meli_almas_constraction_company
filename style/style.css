@@ -8,10 +8,15 @@ html {
     font-size: 16px;
 }
 
+:root {
+    --body-color: rgb(15, 23, 42);
+    --text-color: white;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgb(15, 23, 42);
-    color: white;
+    background: var(--body-color);
+    color: var(--text-color);
     margin: auto;
     font-size: 1.2rem;
 }
@@ -25,7 +30,7 @@ section {
     position: relative;
 }
 
-/* Slider */
+
 #news {
     position: relative;
     display: flex;
@@ -120,8 +125,6 @@ section {
         padding: 10px;
     }
 
-
-    
     html {
         font-size: 16px;
     }
