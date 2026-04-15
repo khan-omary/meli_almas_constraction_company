@@ -20,7 +20,7 @@
             background: rgb(15, 23, 42);
             color: var(--text-color);
             line-height: 1.5;
-            font-size: clamp(0.8rem, 2vw, 1.2rem);
+            font-size: 0.5rem;
         }
 
         .container {
@@ -124,8 +124,12 @@
         }
 
         @media (min-width: 992px) {
+            body {
+                font-size: 1.2rem;
+            }
+
             .post-number {
                 text-align: end;
-                font-size: clamp(0.8rem, 2vw, 1.2rem);
             }
+
         }

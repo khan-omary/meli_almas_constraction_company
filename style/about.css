@@ -19,7 +19,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--secondary-color);
     color: var(--text-color);
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 section {
