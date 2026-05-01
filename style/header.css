@@ -48,7 +48,8 @@
 
 
  .menu-list {
-     display: block;
+      
+     display: none;
      position: fixed;
      text-align: center;
      top: 0;
